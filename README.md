@@ -21,6 +21,11 @@
         header h1 {
             margin: 0;
         }
+        header img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
         nav {
             background-color: #444;
             text-align: center;
@@ -62,14 +67,20 @@
             width: 200px;
             text-align: center;
         }
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
         .service h3 {
-            margin-top: 0;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 
 <header>
+    <img src="https://via.placeholder.com/1200x400.png?text=Barbería+Yambeque" alt="Imagen Barbería Yambeque">
     <h1>Bienvenidos a la página web de la mejor barbería de Ibagué</h1>
 </header>
 
@@ -86,6 +97,7 @@
 
 <section id="sobre-mi">
     <h2>Sobre mí</h2>
+    <img src="https://via.placeholder.com/300x300.png?text=Kevin+Flórez" alt="Foto de Kevin Flórez">
     <p>Hola, soy Kevin Flórez, un barbero apasionado por lo que hago. Es un gusto conocerte y ofrecerte lo mejor de mi arte en el cuidado personal. Me esfuerzo por ofrecerte un corte de pelo, barba o diseño que te haga sentir renovado y seguro.</p>
 </section>
 
@@ -93,18 +105,22 @@
     <h2>Servicios</h2>
     <div class="services">
         <div class="service">
+            <img src="https://via.placeholder.com/200x200.png?text=Corte+de+Pelo" alt="Corte de Pelo">
             <h3>Corte de Pelo</h3>
             <p>El corte de pelo perfecto para ti, adaptado a tu estilo y personalidad.</p>
         </div>
         <div class="service">
+            <img src="https://via.placeholder.com/200x200.png?text=Barba" alt="Barba">
             <h3>Barba</h3>
             <p>Recorta, perfila y da forma a tu barba para que luzca impecable.</p>
         </div>
         <div class="service">
+            <img src="https://via.placeholder.com/200x200.png?text=Cejas" alt="Cejas">
             <h3>Cejas</h3>
             <p>Alineación y perfilado de cejas para complementar tu rostro.</p>
         </div>
         <div class="service">
+            <img src="https://via.placeholder.com/200x200.png?text=Diseños" alt="Diseños">
             <h3>Diseños</h3>
             <p>Diseños artísticos en el cabello y la barba, personalizados para ti.</p>
         </div>
