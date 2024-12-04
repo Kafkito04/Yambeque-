@@ -13,7 +13,7 @@
             padding: 0;
         }
         header {
-            background-image: url('https://via.placeholder.com/1200x400.png?text=Barbería+Yambeque'); /* Imagen del ambiente barbero */
+            background-image: url('             https://pin.it/1uOnagk0I'); /* Imagen del ambiente barbero */
             background-size: cover;
             color: white;
             padding: 40px;
@@ -106,7 +106,7 @@
 
 <section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <img src="https://via.placeholder.com/300x300.png?text=Kevin+Flórez" alt="Foto de Kevin Flórez" style="border-radius: 50%; margin-bottom: 20px;">
+    <img src="https://pin.it/3YuPjLLhW" alt="Foto de Kevin Flórez" style="border-radius: 50%; margin-bottom: 20px;">
     <p>Hola, soy Kevin Flórez, un barbero apasionado por lo que hago. Es un gusto conocerte y ofrecerte lo mejor de mi arte en el cuidado personal. Me esfuerzo por ofrecerte un corte de pelo, barba o diseño que te haga sentir renovado y seguro.</p>
 </section>
 
