@@ -6,28 +6,27 @@
     <title>Barbería Yambeque</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #2f2f2f; /* Gris oscuro que se asocia con el estilo barbería */
+            color: #f4f4f4; /* Blanco para resaltar el texto */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
+            background-image: url('https://via.placeholder.com/1200x400.png?text=Barbería+Yambeque'); /* Imagen del ambiente barbero */
+            background-size: cover;
             color: white;
-            padding: 20px;
+            padding: 40px;
             text-align: center;
+            background-position: center;
         }
         header h1 {
             margin: 0;
-        }
-        header img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
         nav {
-            background-color: #444;
+            background-color: #444; /* Color oscuro para el menú de navegación */
             text-align: center;
             padding: 10px;
         }
@@ -36,19 +35,24 @@
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 10px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
         }
         nav a:hover {
             background-color: #555;
         }
         section {
-            padding: 20px;
+            padding: 40px;
             margin: 20px;
+            background-color: #333; /* Fondo más oscuro para las secciones */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
         }
         footer {
-            background-color: #333;
+            background-color: #444;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -59,13 +63,13 @@
             flex-wrap: wrap;
         }
         .service {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin: 10px;
+            background-color: #555;
             border-radius: 8px;
-            width: 200px;
+            padding: 20px;
+            margin: 10px;
             text-align: center;
+            width: 220px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         .service img {
             width: 100%;
@@ -74,13 +78,18 @@
         }
         .service h3 {
             margin-top: 10px;
+            font-size: 1.5em;
+            color: #f4f4f4;
+        }
+        .service p {
+            font-size: 1.1em;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="https://via.placeholder.com/1200x400.png?text=Barbería+Yambeque" alt="Imagen Barbería Yambeque">
     <h1>Bienvenidos a la página web de la mejor barbería de Ibagué</h1>
 </header>
 
@@ -97,7 +106,7 @@
 
 <section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <img src="https://via.placeholder.com/300x300.png?text=Kevin+Flórez" alt="Foto de Kevin Flórez">
+    <img src="https://via.placeholder.com/300x300.png?text=Kevin+Flórez" alt="Foto de Kevin Flórez" style="border-radius: 50%; margin-bottom: 20px;">
     <p>Hola, soy Kevin Flórez, un barbero apasionado por lo que hago. Es un gusto conocerte y ofrecerte lo mejor de mi arte en el cuidado personal. Me esfuerzo por ofrecerte un corte de pelo, barba o diseño que te haga sentir renovado y seguro.</p>
 </section>
 
@@ -133,4 +142,5 @@
 
 </body>
 </html>
+
 
