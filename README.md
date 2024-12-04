@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
             padding: 0;
         }
         header {
-            background-image: url('             https://pin.it/1uOnagk0I'); /* Imagen del ambiente barbero */
+            background-image: url('https://pin.it/1uOnagk0I'); /* Imagen del ambiente barbero */
             background-size: cover;
             color: white;
             padding: 40px;
